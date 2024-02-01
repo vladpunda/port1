@@ -354,3 +354,251 @@ img {
     max-width: 328px;
   }
 }
+.work__wrapper {
+  display: flex;
+  margin-top: 120px;
+}
+.work__wrapper h2 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0;
+  width: 562px;
+}
+.work__wrapper_column {
+  margin-left: 136px;
+  max-width: 678px;
+}
+.work__wrapper_column p {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 329px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+.work__wrapper_column-item {
+  display: flex;
+  border-bottom: solid 1px rgba(0, 0, 0, 1);
+  padding: 24px 0 24px 0;
+}
+.work__wrapper_column-item h3 {
+  font-size: 36px;
+  font-weight: 400;
+  width: 328px;
+  line-height: 49px;
+  margin: 0;
+}
+.work__wrapper_column-item p {
+  margin: 0;
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 329px;
+  margin-left: 20px;
+}
+@media (max-width: 1030px) {
+  .work__wrapper {
+    display: block;
+    margin-top: 48px;
+  }
+  .work__wrapper h2 {
+    font-size: 28px;
+    width: 343px;
+  }
+  .work__wrapper_column {
+    margin-left: 0;
+    max-width: 343px;
+  }
+  .work__wrapper_column-item {
+    display: block;
+    border-bottom: solid 1px rgba(0, 0, 0, 1);
+    padding: 20px 0 20px 0;
+  }
+  .work__wrapper_column-item h3 {
+    font-size: 24px;
+    width: 343px;
+    line-height: 33px;
+  }
+  .work__wrapper_column-item p {
+    width: 343px;
+    margin-left: 0;
+    padding-top: 20px;
+  }
+}
+
+.project__wrapper h2 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 120px 0 32px 0;
+}
+
+.project__slider {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.project__slider__item {
+  width: 445px;
+  height: 580px;
+  margin-bottom: 20px;
+}
+
+.project__slider .slick-arrow {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  margin-top: -10px;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.project__slider .slick-arrow.slick-prev {
+  left: 35%;
+  background: url(../img/prevbutton.svg) 0 0 / 100% no-repeat;
+}
+
+.project__slider .slick-arrow.slick-arrow.slick-next {
+  right: 35%;
+  background: url(../img/prevbutton.svg) 0 0 / 100% no-repeat;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1440px) {
+  .project__slider {
+    display: block;
+  }
+  .project__slider__item {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1030px) {
+  .project__wrapper h2 {
+    font-size: 28px;
+    margin: 48px 0 20px 0;
+  }
+  .project__slider__item {
+    width: 252px;
+    height: 328px;
+  }
+}
+
+.review__wrapper h2 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 100px 0 32px 0;
+}
+.review__list {
+  display: flex;
+  justify-content: space-between;
+}
+.review__item {
+  width: 445px;
+  height: 327px;
+  border: solid 1px rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.review__item_icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+}
+.review__item_name {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 32px 0 20px 0;
+}
+.review__item_text {
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 365px;
+  margin: 0 auto;
+}
+@media (max-width: 1440px) {
+  .review__item {
+    width: 310px;
+  }
+}
+@media (max-width: 1030px) {
+  .review__wrapper h2 {
+    font-size: 28px;
+    margin: 58px 0 20px 0;
+  }
+  .review__list {
+    display: block;
+  }
+  .review__item {
+    width: 343px;
+    height: 332px;
+    margin-bottom: 16px;
+  }
+  .review__item_icon {
+    width: 32px;
+    height: 32px;
+    margin-top: 32px;
+  }
+  .review__item_text {
+    max-width: 278px;
+  }
+}
+
+.order__wrapper {
+  display: flex;
+  margin-top: 120px;
+}
+.order__wrapper img {
+  width: 562px;
+  height: 566px;
+  margin-right: 136px;
+}
+
+.order__form_column h2 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0;
+}
+.order__form_column p {
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 32px 0 72px 0;
+}
+
+.formInput {
+  margin: 0 0 12px 0;
+  border: none;
+  border-bottom: solid 1px rgba(33, 37, 41, 1);
+  width: 558px;
+  padding-bottom: 12px;
+}
+.formInput::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 1);
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  font-weight: 400;
+}
+.order-form__submit {
+  width: 176px;
+  height: 46px;
+  background-color: rgba(33, 37, 41, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+}
